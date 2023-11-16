@@ -1,0 +1,102 @@
+
+/*- <style>
+    /*-You can add style to an element by specifying it in the style element and setting a property for it like this:
+element {
+ property: value;
+}-  </style>-*/
+
+/*-You now have three type selectors with the exact same styling: 
+selector1, selector2 {
+  property: value;
+}-*/
+.established{
+  font-style: italic;
+}
+h1,h2,p{
+    text-align: center;
+}
+h1,h2{
+  font-family: Impact, serif;
+}
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 30px;
+
+}
+img{
+  display: block;
+  margin-left:auto ;
+  margin-right:auto ;
+  margin-top: -25px;
+}
+body{
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+
+}
+/*- The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this.-*/
+/*-You can use the id selector to target a specific element with an id attribute-*/
+.menu{
+    width: 80%;
+    /*Step 23: -Now use the existing #menu selector to set the background color of the div element to be burlywood.-*/
+    background-color: burlywood;
+    /*--Next, you want to center the #menu horizontally. You can do this by setting its margin-left and margin-right properties to auto--*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    
+}
+hr{
+  height: 3px;
+  background-color: brown;
+  border-color: brown;
+  height: 2px;
+}
+
+.flavor, .dessert{
+  text-align: left;
+  width:  75%;
+}
+.price{
+  text-align: right;
+  width:  25%;
+}
+.item p {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+ }
+ .bottom-line{
+  margin-top: 25px;
+ }
+/*-A class selector is defined by a name with a dot directly in front of it, like this:-*/
+/*--:    .class-name {
+  styles
+} ---*/
+/*FOOTER*/
+
+footer{
+  font-size: 14px;
+}
+.address{
+  margin-bottom: 5px;
+}
+a{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: brown;
+}
+a:active{
+  color: brown;
+}

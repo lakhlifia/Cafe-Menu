@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cafe Menu</title>
+  <!--Now you need to link the styles.css file so the styles will be applied again. Nest a self-closing link element in the head-->
+  <link rel="stylesheet" href="style.css">
+  <!--For the styling of the page to look similar on mobile as it does on a desktop-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <!--The div element is used mainly for design layout purposes-->
+    <!--You can use the id selector to target a specific element with an id attribute.-->
+    <!--A class selector is defined by a name with a dot directly in front of it, like this-->
+    <div class="menu">
+     <main>
+    <h1>CAMPER CAFE</h1>
+    <p class="established">Est. 2020</p>
+    <hr>
+    <!--There will be two sections on the menu, one for coffees and one for desserts. Add a section element within the main element so you have a place to put all the coffees available.-->
+    <section>
+    <!--Step 9: Create an h2 element in the section element and give it the text Coffee.-->
+    <h2>Coffee</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon">
+    <!--La balise <article> en HTML est utilisée pour définir une section autonome et indépendante de contenu dans une page web-
+      exemple: 
+      <article>
+         <h2>Titre de l'article</h2>
+         <p>Contenu de l'article...</p>
+      <footer>
+      <small>Publié le 15 novembre 2023</small>
+      </footer>
+     </article>-->
+    <article class="item">
+      <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+      
+    </article>
+    <article class="item">
+      <p class="flavor">Pumpkin Spice</p><p class="price" >3.50</p>
+      
+    </article>
+    <article class="item">
+      <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Mocha</p><p class="price">4.50</p>
+    </article>
+  </section>
+  <section>
+
+    <h2>Desserts</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+    <article class="item">
+      <p class="dessert">Donut</p><p class="price">1.50</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cherry Pie </p><p class="price">2.75</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+    </article>
+             
+  </section>
+    
+
+    <!---->
+   </main>
+   <hr class="bottom-line">
+   <footer>
+    <p><a href="https://www.freecodecamp.org"> Visit our website</a></p>
+    <P class="address">123 Free Code Camp Drive</P>
+   </footer>
+   </div>
+  
+</body>
+</html>
